@@ -1,4 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: ;
+    background-color: #f4f4f4;
+    padding: 20xp; 
+}
+h1,h2{
+    color: #333;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    border: 1xp solid #ddd;
+    max-width: 400xp;
 }
