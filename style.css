@@ -8,11 +8,26 @@ header{
     color:white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding:24px 0;
-    text-align: center;}
+    text-align: center;
+}
     nav{
      background-color: #343a40; 
     text-align: center;
-    padding:12px 0 ;}
+    padding:12px 0 ;
+}
+nav a{
+    text-decoration: none;
+    color: blue;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+nav a:hover{
+    color: #ff6347;
+    text-decoration: underline;
+}
+
 h1,h2{
     color: #333;
 }
