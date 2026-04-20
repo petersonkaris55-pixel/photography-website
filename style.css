@@ -47,7 +47,10 @@ ul{
     display: flex;
     gap: 10px;
 }
-main{
-    width: 350px;
-    height: 350px;
+.photo-item{
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
 }
+
