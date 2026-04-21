@@ -1,7 +1,11 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+    font-family: Arial, Helvetica , sans-serif;
+    background-color: #f4f4f4;
     padding: 20xp; 
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+
 }
 header{
     background-color: rosybrown;
@@ -56,13 +60,6 @@ ul{
     display: flex;
     gap: 10px;
 }
-.main{
-    width: 200px;
-    height: 200px;
-    gap: 100px;
-    
-}
-
 form{
     max-width: 650px;
     margin: 24px auto;
@@ -99,5 +96,12 @@ form button:hover{
 }
 form button:active{
     background-color: #004080;
+}
+.main{
+    width: 200px;
+    height: 200px;
+    gap: 100px;
+    border-radius: 8px;
+    
 }
 
